@@ -2,9 +2,6 @@
 title: Lighthouse Leadership
 timezone: Australia/Brisbane
 collections:
-  feature:
-    title: Feature
-    output: true
   posts:
     title: Posts
     output: true
