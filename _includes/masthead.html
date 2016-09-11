@@ -1,5 +1,5 @@
 {% include base_path %}
-
+ {{ site.pages | json }}
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
@@ -13,7 +13,9 @@
               {% else %}
               {% assign domain = base_path %}
             {% endif %}
+            {% if link.url contains '404.html' %}
             <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            {% endif %}
           {% endfor %}
         </ul>
         <ul class="hidden-links hidden"></ul>
