@@ -2,6 +2,7 @@
 title: Pre-marriage Course
 date: 2016-09-11 14:00:00 +10:00
 header image: "/uploads/pre-marriage.jpg"
+is in main menu: false
 layout: default
 ---
 
