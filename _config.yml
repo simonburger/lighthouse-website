@@ -21,6 +21,7 @@ defaults:
   values:
     layout: page
     header image: ''
+    is in main menu: true
 permalink: pretty
 locale: en
 title_separator: "-"
