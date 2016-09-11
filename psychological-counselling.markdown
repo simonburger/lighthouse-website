@@ -2,6 +2,8 @@
 title: Psychological Counselling
 date: 2016-09-11 13:00:00 +10:00
 position: 1
+header image: "/uploads/forest.jpg"
+is in main menu: true
 layout: default
 ---
 
