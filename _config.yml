@@ -87,3 +87,6 @@ compress_html:
 sass:
   sass_dir: _sass
   style: compressed
+include:
+- ".htaccess"
+- _pages

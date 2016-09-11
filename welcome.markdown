@@ -5,4 +5,4 @@ permalink: "/"
 layout: splash
 ---
 
-home page content goes here.
+home page content goes here. 
