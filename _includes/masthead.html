@@ -5,23 +5,16 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
-        <ul class='main-nav-list'>
-          {% assign section = url | remove_first:'/' | split:'/' | first %}
-          {% assign prev_group = 0 %}
-
-          {% for page in site.pages %}
-            {% unless page.home? %}
-              {% if page.meta.group != prev_group %}
-                </ul>
-                <ul class='main-nav-list'>
-              {% endif %}
-
-              <li{% if section == page.slug %} class='is-selected'{% endif %}>
-                <a href='{{ page.url }}'>{{ page.title }}</a>
-              </li>
-
-              {% assign prev_group = page.meta.group %}
-            {% endunless %}
+        <ul class="visible-links">
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
+          {% assign menu_pages = site.pages | sort:"order" %}
+          {% for link in menu_pages %}
+            {% if link.url contains 'http' %}
+              {% assign domain = '' %}
+              {% else %}
+              {% assign domain = base_path %}
+            {% endif %}
+            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
         </ul>
         <ul class="hidden-links hidden"></ul>
