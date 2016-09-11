@@ -21,65 +21,65 @@ defaults:
   values:
     layout: page
     header image: ''
-    is in main menu: true
+    is in main menu: false
 permalink: pretty
 locale: en
 title_separator: "-"
 name: Your Name
 description: An amazing website.
-url: 
-baseurl: 
-repository: 
-teaser: 
+url:
+baseurl:
+repository:
+teaser:
 words_per_minute: 200
 author:
   name: Your Name
   avatar: bio-photo.jpg
   bio: I am an amazing person.
   location: Somewhere
-  email: 
-  uri: 
-  bitbucket: 
-  codepen: 
-  dribbble: 
-  flickr: 
-  facebook: 
-  foursquare: 
-  github: 
-  google_plus: 
-  keybase: 
-  instagram: 
-  lastfm: 
-  linkedin: 
-  pinterest: 
-  soundcloud: 
-  stackoverflow: 
-  steam: 
-  tumblr: 
-  twitter: 
-  vine: 
-  weibo: 
-  xing: 
-  youtube: 
-google_site_verification: 
-bing_site_verification: 
-alexa_site_verification: 
-yandex_site_verification: 
+  email:
+  uri:
+  bitbucket:
+  codepen:
+  dribbble:
+  flickr:
+  facebook:
+  foursquare:
+  github:
+  google_plus:
+  keybase:
+  instagram:
+  lastfm:
+  linkedin:
+  pinterest:
+  soundcloud:
+  stackoverflow:
+  steam:
+  tumblr:
+  twitter:
+  vine:
+  weibo:
+  xing:
+  youtube:
+google_site_verification:
+bing_site_verification:
+alexa_site_verification:
+yandex_site_verification:
 twitter:
-  username: 
+  username:
 facebook:
-  username: 
-  app_id: 
-  publisher: 
-og_image: 
+  username:
+  app_id:
+  publisher:
+og_image:
 social:
-  type: 
-  name: 
-  links: 
+  type:
+  name:
+  links:
 analytics:
   provider: false
   google:
-    tracking_id: 
+    tracking_id:
 encoding: utf-8
 markdown_ext: markdown,mkdown,mkdn,mkd,md
 compress_html:
