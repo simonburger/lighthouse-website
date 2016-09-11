@@ -20,6 +20,7 @@ defaults:
     type: pages
   values:
     layout: page
+    header image: ''
 permalink: pretty
 locale: en
 title_separator: "-"
